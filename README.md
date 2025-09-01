@@ -13,6 +13,10 @@ This application showcases a multi-step banking authentication system with:
 - **Type-safe development** with TypeScript
 - **Comprehensive testing** with Vitest
 
+## 🎬 Preview Video
+
+[![AEON Bank Challenge Demo](link)
+
 ## ✨ Key Features
 
 ### Authentication System
@@ -234,22 +238,20 @@ The project includes comprehensive tests for:
 
 ```bash
 # Development
-npm run dev          # Start development server with Turbopack
-npm run build        # Build for production
-npm run start        # Start production server
+bun run dev          # Start development server with Turbopack
+bun run build        # Build for production
+bun run start        # Start production server
 
 # Code Quality
-npm run lint         # Run ESLint
-npm run lint:fix     # Fix ESLint issues
-npm run format       # Format code with Prettier
-npm run format:check # Check code formatting
-npm run type-check   # Run TypeScript type checking
+bun run lint         # Run ESLint
+bun run format       # Format code with Prettier
+bun run format:check # Check code formatting
+bun run type-check   # Run TypeScript type checking
 
 # Testing
-npm run test         # Run tests in watch mode
-npm run test:ui      # Run tests with Vitest UI
-npm run test:run     # Run tests once
-npm run test:coverage # Run tests with coverage report
+bun run test         # Run tests in watch mode
+bun run test:run     # Run tests once
+bun run test:coverage # Run tests with coverage report
 ```
 
 ## 🏗 Architecture Highlights
@@ -290,22 +292,6 @@ npm run build
 npm run start
 ```
 
-### Deploy to Vercel (Recommended)
-
-1. Push your code to GitHub
-2. Connect your repository to [Vercel](https://vercel.com)
-3. Deploy automatically on every push
-
-### Environment Variables
-
-For production deployment, consider adding:
-
-```env
-# Add to .env.local
-NEXTAUTH_SECRET=your-secret-key
-DATABASE_URL=your-database-url
-```
-
 ## 🤝 For Interviewers
 
 ### What to Look For
@@ -338,7 +324,3 @@ DATABASE_URL=your-database-url
 ## 📄 License
 
 This project is created for interview and demonstration purposes.
-
----
-
-**Built with ❤️ for AEON Bank Challenge**
