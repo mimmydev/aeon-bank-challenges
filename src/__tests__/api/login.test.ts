@@ -8,7 +8,7 @@ describe('/api/login', () => {
       method: 'POST',
       body: JSON.stringify({
         username: 'testuser',
-        password: 'hashed_password_123',
+        password: 'test123',
       }),
     });
 
