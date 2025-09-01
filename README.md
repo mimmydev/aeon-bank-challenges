@@ -13,34 +13,9 @@ This application showcases a multi-step banking authentication system with:
 - **Type-safe development** with TypeScript
 - **Comprehensive testing** with Vitest
 
-## 🎬 Preview Video
+## 🎬 Preview Video (click the thumbnail)
 
-[![AEON Bank Challenge Demo](link)
-
-## ✨ Key Features
-
-### Authentication System
-
-- **Multi-step login process** with progressive disclosure
-- **Secure word verification** for enhanced security
-- **Password validation** with bcrypt hashing
-- **Session management** with React Context
-- **Protected routes** with authentication guards
-
-### User Interface
-
-- **Responsive design** that works on all devices
-- **Modern UI components** built with shadcn/ui
-- **Smooth animations** and transitions
-- **Accessible navigation** with keyboard support
-- **Loading states** and error handling
-
-### Data Management
-
-- **Mock user database** with realistic test data
-- **Transaction history** with search and filtering
-- **RESTful API endpoints** for data operations
-- **Type-safe data structures** throughout the application
+[![AEON Bank Challenge Demo](https://img.youtube.com/vi/lCOKOkResj8/0.jpg)](https://www.youtube.com/watch?v=lCOKOkResj8)
 
 ## 🛠 Technology Stack
 
@@ -140,12 +115,11 @@ Navigate to [http://localhost:3000](http://localhost:3000) in your browser.
 
 Use these test accounts to explore the application:
 
-| Username   | Password      | Role  |
-| ---------- | ------------- | ----- |
-| `mimmy`    | `password123` | user  |
-| `admin`    | `admin123`    | admin |
-| `testuser` | `test123`     | user  |
-| `john`     | `john456`     | user  |
+| Username | Password      |
+| -------- | ------------- |
+| `mimmy`  | `password123` |
+| `admin`  | `admin123`    |
+| `john`   | `john456`     |
 
 ### Login Flow
 
@@ -158,7 +132,7 @@ Use these test accounts to explore the application:
 
 ```
 src/
-├── app/                    # Next.js App Router
+├── app/                   # Next.js App Router
 │   ├── api/               # API endpoints
 │   │   ├── getSecureWord/ # Secure word retrieval
 │   │   ├── login/         # Authentication endpoint
@@ -213,16 +187,7 @@ curl -X POST http://localhost:3000/api/getSecureWord \
 
 ```bash
 # Run all tests
-npm run test
-
-# Run tests with UI
-npm run test:ui
-
-# Run tests with coverage
-npm run test:coverage
-
-# Run tests once (CI mode)
-npm run test:run
+bun run test
 ```
 
 ### Test Coverage
@@ -230,9 +195,6 @@ npm run test:run
 The project includes comprehensive tests for:
 
 - API endpoints (`login`, `transaction-history`)
-- Authentication flow
-- Component rendering
-- Error handling
 
 ## 🔧 Development Scripts
 
@@ -291,27 +253,6 @@ bun run test:coverage # Run tests with coverage report
 npm run build
 npm run start
 ```
-
-## 🤝 For Interviewers
-
-### What to Look For
-
-1. **Code Organization** - Clean separation of concerns
-2. **TypeScript Usage** - Comprehensive type safety
-3. **React Patterns** - Modern hooks and context usage
-4. **Error Handling** - Graceful error states and validation
-5. **Testing Strategy** - API and component test coverage
-6. **Responsive Design** - Mobile-first approach
-7. **Security Considerations** - Password hashing and validation
-
-### Key Implementation Highlights
-
-- Multi-step form with state management
-- Custom hook patterns for reusable logic
-- Responsive navigation with mobile menu
-- Type-safe API endpoints
-- Comprehensive error handling
-- Modern React 19 features
 
 ## 📚 Learning Resources
 
