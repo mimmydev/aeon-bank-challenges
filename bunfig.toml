@@ -1,0 +1,34 @@
+[install]
+# Automatically install peer dependencies
+auto = true
+
+# Use exact versions instead of ranges
+exact = true
+
+# Registry configuration
+registry = "https://registry.npmjs.org/"
+
+[install.cache]
+# Cache directory for packages
+dir = "~/.bun/install/cache"
+
+# Disable cache for development
+disable = false
+
+[run]
+# Shell to use for running scripts
+shell = "system"
+
+# Environment variables
+env = []
+
+[test]
+# Test runner configuration
+preload = ["./src/__tests__/setup.ts"]
+
+[lockfile]
+# Save lockfile after install
+save = true
+
+# Print lockfile changes
+print = "yarn"
